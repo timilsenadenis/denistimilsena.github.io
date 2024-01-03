@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+
+body{
+
+    height: 100vh;
+    background-color:#FFFFFF;
+
+}
+.port{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 2.5% 0;
+    
+} 
+#logo{
+    margin-left: 100px;
+    font-size: 3rem;
+   font-weight: 600;
+    color: #000000;
+    font-family: 'League Spartan', sans-serif;
+    transition: all 0.5s ease-out;
+  
+     
+}
+.header{
+    background-color: #ffffff;
+    position:fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:7rem;
+    width: 100%;
+    padding: 20px 0 20px;
+   
+
+
+}
+nav a{
+   font-size: 1.75rem;
+   color: #000000;
+   font-weight: 300;
+   margin-right: 3rem;
+   text-decoration: none;
+   transition: 0.5s;
+}
+.home{
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    display: fixed;
+    padding: 2rem;
+}
+
+.home-content{
+    margin-bottom: none;
+    margin-top: 5%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10% 0;
+    
+   
+}
+.content{
+    
+    font-size: 1.75rem;
+    padding: 20px;
+    
+    
+}
+.content p{
+    margin-top: 15px;
+}
+.content h1{
+    color: #086074;
+   
+}
+#btn-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 60px;
+    width: 400px;
+    
+}
+
+ #btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 180px;
+    background:#000000;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size:1.5rem;
+    font-weight: 600;
+    border-radius: 1.35rem;
+    border: 4px solid #000000;
+    transition: all 0.5s ease-out;
+}
+#btn-box a:nth-child(2){
+    background: transparent;
+    color: #000000;
+}
+#btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgb(104, 59, 59);
+    z-index: -1;
+    transition: .5s;
+}
+.btn-box a:hover::before{
+    width:100% ;
+  
+
+}
+
+#img-profile img{
+    padding: 10px;
+    background-color:#E5E5E5 ;
+    height: 30rem;
+    width:30rem;
+    border-radius: 50%;
+    box-shadow: 7px 7px  7px 5px#606B73;
+}
+
+ .header nav a:hover{
+    color: #e1a4a4;
+    transition: 0.3s;
+}
+#logo:hover{
+    color: #797979;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+   
+    background-color: #f2f1f1;
+ 
+}
+#btn-box a:nth-child(1):hover{
+    background-color: #fffffff9;
+    color:black;
+}
+#btn-box a:nth-child(2):hover{
+    color: white;
+    background-color: #000000;
+
+}
+.header nav a{
+    min-height: fit-content;
+    padding: 1rem;
+    border-radius: 1.75rem;
+    border-color: none ;
+   
+    transition: all 0.5s ease-out;
+}
+.header nav a:hover{
+    background-color: #f2f1f1;
+    color: #000000;
+    
+}
+.social-link{
+ 
+    margin-left:10%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 400px;
+    
+    gap: 5px;
+    
+}
+ .social-link img{
+    height: 60px;
+    width: 60px;
+    border-radius: 1rem;
+    transition: all 0.5s ease-out;
+}
+.social-link img:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(154, 154, 154) ;
+}
+#quote{
+    margin: 0 20% 0;
+    font-size: 20px;
+}
+.link{
+    margin-bottom: 5%;
+    min-height: 20vh;
+    height:auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #797979;
+}
